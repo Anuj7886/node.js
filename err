@@ -1,0 +1,21 @@
+
+[Running] node "d:\node.js\db_connect\dbConnect.js"
+SQL Server connection error: ConnectionError: Failed to connect to 192.168.1.18:1433 in 15000ms
+    at d:\node.js\node_modules\mssql\lib\tedious\connection-pool.js:85:17
+    at Connection.onConnect (d:\node.js\node_modules\tedious\lib\connection.js:849:9)
+    at Object.onceWrapper (node:events:634:26)
+    at Connection.emit (node:events:519:28)
+    at Connection.emit (d:\node.js\node_modules\tedious\lib\connection.js:970:18)
+    at Connection.connectTimeout (d:\node.js\node_modules\tedious\lib\connection.js:1222:10)
+    at Timeout._onTimeout (d:\node.js\node_modules\tedious\lib\connection.js:1167:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  code: 'ETIMEOUT',
+  originalError: ConnectionError: Failed to connect to 192.168.1.18:1433 in 15000ms
+      at Connection.connectTimeout (d:\node.js\node_modules\tedious\lib\connection.js:1222:26)
+      at Timeout._onTimeout (d:\node.js\node_modules\tedious\lib\connection.js:1167:12)
+      at listOnTimeout (node:internal/timers:581:17)
+      at process.processTimers (node:internal/timers:519:7) {
+    code: 'ETIMEOUT'
+  }
+}
